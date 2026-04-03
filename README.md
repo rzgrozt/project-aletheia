@@ -217,29 +217,6 @@ Pre-LayerNorm (normalization *before* each sub-layer) provides more stable train
 
 ---
 
-✦ Generation Samples & Architectural Reality
-
-The following empirical results were generated using our 40M parameter model trained on the TinyStories dataset. These examples demonstrate both the biological capabilities of the architecture and the inherent mathematical trade-offs of abandoning the KV-Cache.
-Sample 1: The Syntactic Victory
-
-    Prompt: "Once upon a time, there was a little girl named Lily. She loved to"
-    Output: " play with the sidewalk."
-    Analysis: Flawless syntax (Verb + Preposition + Noun). Demonstrates that the Gated Hebbian Memory perfectly learned English grammatical structure. The semantic drift (playing with a sidewalk) highlights the limit of a 40M parameter capacity lacking a physical world model.
-
-Sample 2: O(1) Causality
-
-    Prompt: "One day, Tom went to the park. He saw a big dog and"
-    Output: " wanted to find a new plan."
-    Analysis: A triumph of O(1) causality. The Fast Weight matrix successfully encoded the "big dog" context via Dopaminergic gating and linked it to a logical, reactive action ("new plan"), completely avoiding the O(L) KV-Cache overhead of standard Transformers.
-
-Sample 3: The State Compression Trade-off
-
-    Prompt: "The sun was shining. A cat sat on the"
-    Output: " tree and cl apped his hands and look inside."
-    Analysis: The Theoretical Compression Bottleneck. This demonstrates the exact limit of O(1) state compression. As the sequence extends, the Erase Gate (Norepinephrine) bleeds context, leading to tense mismatch ("clapped" vs "look") and training-data anthropomorphism.
-
----
-
 ## ✦ References
 
 > Ba, J., Hinton, G., Mnih, V., Leibo, J. Z., & Ionescu, C. (2016).
