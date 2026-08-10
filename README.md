@@ -153,7 +153,7 @@ project-aletheia/
 ### Requirements
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<your-username>/project-aletheia.git
+git clone https://github.com/rzgrozt/project-aletheia.git
 cd project-aletheia
 
 # 2. Create and activate virtual environment
